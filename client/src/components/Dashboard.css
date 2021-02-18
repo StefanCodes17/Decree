@@ -1,0 +1,135 @@
+.dashboard__outer__container{
+    height: 85vh;
+    position: relative;
+}
+
+.dashboard__header{
+    width: 100vw;
+    height: 6vh;
+    min-height: 40px;
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,0.16);
+    box-shadow: 0 25px 6px rgba(0,0,0,0.16), 0 25px 6px rgba(0,0,0,0.23);
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.header__content{
+    width: 95%;
+    margin: auto;
+}
+
+.icon{
+    color: rgba(0,0,0,0.16);
+    width: 25px;
+}
+
+.icon__control{
+    padding: 8px 10px 8px;
+    text-align: right;
+    width: 100%;
+}
+
+.slider__control{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+}
+.slide__cta:hover{
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+.slider__control__right{
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    top: 57%;
+}
+
+.slide__cta__right:hover{
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.add__cta:hover{
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu__section__title{
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.menu__section__entry__container{
+    margin-left: 15px;
+    color: black
+}
+
+.menu__item__container{
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.color__bar{
+    width: 4px;
+    height: 15px;
+    border-radius: 10px;
+    margin-right: 6px;
+    background-color: red;
+}
+
+.active__menu{
+    opacity: 1;
+    font-weight: bold;
+}
+
+.subsection__input{
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.16);
+    width: 80%;
+    padding: 5px 10px;
+}
+
+.subsection__input:focus{
+    outline: none;
+}
+
+.dashboard__content{
+    padding: 25px 15px 25px 35px;
+}
+
+/* Overriding Semantic UI styles for Dashboard
+component */
+
+.ui.segment{
+    margin-top: 0px;
+    border: none;
+}
+
+.ui.left.visible.sidebar{
+    box-shadow: none;
+}
+.ui.sidebar.menu .item{
+    text-align: left;
+}
+
+.ui.sidebar{
+    overflow-y: hidden;
+}
+
+.ui.vertical.menu .item:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 1px;
+    background: rgba(34,36,38,.1);
+}
