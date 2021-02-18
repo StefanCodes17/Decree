@@ -1,7 +1,7 @@
 
 <br />
 <p align="center">
-  <h3 align="center">Decree</h3>
+  <h2 align="center">Decree</h3>
 
   <p align="center">
     A voice-controlled task planner / manager
