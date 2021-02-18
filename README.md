@@ -15,6 +15,7 @@ This section should list any major frameworks that you built your project using.
 * MySQL
 * NodeJS
 * Wit.ai
+* Google OAuth
 
 <!-- LICENSE -->
 ## License
