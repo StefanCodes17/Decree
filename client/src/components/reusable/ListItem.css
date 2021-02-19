@@ -1,0 +1,20 @@
+.content__container{
+    display: flex;
+    padding: 2px 0px;
+}
+
+.status__container{
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.text__input{
+    border: none;
+    background-color: transparent;
+    max-width: 100%;
+    min-height: fit-content;
+}
+
+.text__input:focus{
+    outline: none;
+}
